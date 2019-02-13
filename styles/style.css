@@ -11,6 +11,7 @@ body a{
 }
 header a{
 color: #82868f;
+
 }
 
 li{
@@ -56,7 +57,7 @@ margin-right: 37px;
   width: 800px;
   left:50%;
   transform: translate(-50%);
-  background-color: #5b676d;
+  color: #f7fdfe;
 }
 
 .ourmission{
@@ -64,9 +65,55 @@ position: relative;
 text-align: center;
 top: 0;
 }
-
-
-
+.bg{
+	position: relative;
+	width: 800px;
+	height: 250px;
+	text-align: center;
+	margin: auto;
+	top: 70%;
+	transform: translateY(30%);
+}
+.bg h2{
+	color: #0ebfdd;
+	font-size: 25px;
+}
+.bg p{
+	color: #45494d;
+	font-size: 20px;
+}
+.team{
+	width: 1400px;
+	height: 600px;
+	background-color: #0ebfdd;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+}
+.team h2{
+	color: #ffffff;
+	transform: translateY(35px); 
+}
+.face{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 25px;
+  transform: translateY(30%);
+  text-align: center;
+}
+.face img{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.name{
+	text-align: center;
+	width: 10px;
+}
 
 
 
