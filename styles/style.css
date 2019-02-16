@@ -111,8 +111,11 @@ top: 0;
   display: inline-block;
 }
 .name{
+	color: #f7fdfe;
 	text-align: center;
-	width: 10px;
+}
+iframe{
+	width: 1400px;
 }
 
 
