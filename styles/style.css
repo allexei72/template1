@@ -1,3 +1,7 @@
+header{
+	background-color: #f7fdfe;
+	width: 1400px;
+}
 .header{
 	width: 960px;
 	margin: auto;
@@ -11,7 +15,6 @@ body a{
 }
 header a{
 color: #82868f;
-
 }
 
 li{
@@ -22,7 +25,6 @@ margin-right: 37px;
 .menu{
 	float: right;
 	padding-top: 10px;
-
 }
 .label{
 	margin-right: 37px;
@@ -40,6 +42,7 @@ margin-right: 37px;
 	border: 1px;
 	padding: 5px;
 	border-radius: 30px;
+
 }
   img{
   width: 1400px;
@@ -97,8 +100,8 @@ top: 0;
 }
 .face{
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   border-radius: 50%;
   margin: 25px;
@@ -109,17 +112,58 @@ top: 0;
   width: 150px;
   height: 150px;
   display: inline-block;
+  border-radius: 50%;
 }
 .name{
 	color: #f7fdfe;
 	text-align: center;
 }
+.work{
+	width: 180px;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 30px;
+	margin: auto;
+	transform: translateY(250%);
+	
+}
+.work a{
+	color: #f7fdfe;
+	font-size: 16px;
+
+}
 iframe{
 	width: 1400px;
 }
-
-
-
+footer{
+	background-color: #45494d;
+	width: 1400px;
+	margin: 0 auto;
+  text-align: center;
+}
+footer a{
+	color: #d7dee4;
+	font-size: 14px;
+	margin-left: 10px;
+}
+footer nav a:hover{
+	border-bottom: 1px solid #d7dee4;
+}
+footer p{
+	color: #d7dee4;
+	text-align: right;
+	margin-left: 10px;
+	display: inline-block;
+}
+.social{
+	width:  140px;
+	margin-left: 5px;
+}
+.social a{
+	display: inline-block;
+  width: 30px;
+  float: right;
+}
 
 
 
