@@ -1,18 +1,24 @@
 header{
 	background-color: #f7fdfe;
-	width: 1400px;
 }
-.header{
+
+.conteiner{
 	width: 960px;
 	margin: auto;
-	background-color: #f7fdfe;
-	padding: 10px;
-	font-family: 'museo700';
-
+	padding: 0 10px;
 }
+
+.header{
+	margin: auto;
+	background-color: #f7fdfe;
+	font-family: 'museo700';
+	padding: 20px 0;
+}
+
 body a{
 	text-decoration: none;
 }
+
 header a{
 color: #82868f;
 }
@@ -22,46 +28,63 @@ display: inline-block;
 text-decoration: none;
 margin-right: 37px;
 }
+
 .menu{
 	float: right;
-	padding-top: 10px;
+	padding-top: 7px;
 }
+
 .label{
-	margin-right: 37px;
+	margin-right: 30px;
 	text-decoration: none;
 }
+.menu .label:nth-of-type(3){
+	margin-right: 20px;
+}
+
  .menu a{
-	margin-right: 10px;
 	font-size: 14px;
 }
+
 .LOGO {
 	font-size: 30px;
 }
-.Sign{
+
+.Sign a{
+	padding: 10px 35px;
 	background-color: #0ebfdd;
 	border: 1px;
-	padding: 5px;
 	border-radius: 30px;
-	
+}
 
-}
-  img{
-  width: 1400px;
+.ourmission >  img{
   margin: auto;
+  display: block;
 }
-.main{
-  margin: auto;	
-  position: relative;
-}
+
 .stars  {
-  font-size: 20px;
+	bottom: 85px;
+	left:50%;
+	transform: translateX(-50%);
+	position: absolute;
   text-align: center;
-  position: absolute;
-  top: 70%;
-  width: 800px;
-  left:50%;
-  transform: translate(-50%);
   color: #f7fdfe;
+  font-family: 'avenir_85_heavyheavy'
+}
+
+
+.stars h1{
+ font-size: 44px;
+ margin-bottom: 20px;
+}
+.stars p{
+	padding: 0 10px;
+ font-size: 21px;
+}
+
+.stars img{
+	width: 7px;
+  fill: #f7fdfe; 
 }
 
 .ourmission{
@@ -69,111 +92,177 @@ position: relative;
 text-align: center;
 top: 0;
 }
+
 .bg{
-	position: relative;
-	width: 800px;
-	height: 250px;
 	text-align: center;
-	margin: auto;
-	top: 70%;
-	transform: translateY(30%);
+	padding-top: 55px;
+	padding-bottom: 94px;
 }
+
 .bg h2{
+	
 	color: #0ebfdd;
-	font-size: 25px;
+	font-size: 45px;
+	font-family: 'avenir heavy';
+	margin-bottom: 12px;
 }
+
 .bg p{
 	color: #45494d;
 	font-size: 20px;
+	padding: 0 50px;
+	font-family: 'avenir medium'
 }
+.bg .conteiner{
+	margin-bottom: 50%: 
+}
+
 .team{
-	width: 1400px;
-	height: 600px;
 	background-color: #0ebfdd;
-	position: relative;
 	margin: auto;
 	text-align: center;
 	font-size: 25px;
+	padding: 47px 0 65px;
 }
+
 .team h2{
-	color: #ffffff;
-	transform: translateY(35px); 
+ font-size: 45px;
+ color: #ffffff;
+ font-family: 'avenir heavy'
 }
+.team_to_face{
+	margin-top: 86px;
+}
+
 .face{
   display: inline-block;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 25px;
-  transform: translateY(30%);
-  text-align: center;
+  margin:0 31px;
+ 
 }
-.face img{
+
+.faceimg{
+  border-radius: 50%;
+  overflow: hidden;
   width: 150px;
   height: 150px;
-  display: inline-block;
-  border-radius: 50%;
+  margin-bottom: 5px;
 }
+
 .name{
 	color: #f7fdfe;
 	text-align: center;
+	font-size: 18px;
+	font-family: 'avenir heavy'
 }
+
+.profi {
+color: #f7fdfe;
+font-size: 16px;
+font-style: italic;
+font-family: 'avenir heavy'
+}
+
 .work{
-	width: 180px;
+  margin-top: 93px;
+}
+
+.work a{
+	display: inline-block;
+	color: #f7fdfe;
 	border: 1px solid white;
 	padding: 5px;
 	border-radius: 30px;
-	margin: auto;
-	transform: translateY(250%);
-	
-}
-.work a{
-	color: #f7fdfe;
+	padding: 10px 20px;
 	font-size: 16px;
+}
 
-}
-iframe{
-	width: 1400px;
-}
 footer{
 	background-color: #45494d;
-	width: 1400px;
-	margin: 0 auto;
-  text-align: center;
+	margin: auto;
+  text-decoration: none;
 }
-footer a{
-	color: #d7dee4;
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.ollfoot{
+	width: 940px;
+  
+}
+
+.ollfoot a{
+font-family:'museo sans 500' ;
+color: #d7dee4;
+}
+
+.menuandicon{
+border-bottom: 1px solid #d7dee4;
+}
+.menufoot {
 	font-size: 14px;
-	margin-left: 10px;
+	text-decoration: none;
+	margin: 31px 0 30px;
+	float: left;
 }
-footer nav a:hover{
-	border-bottom: 1px solid #d7dee4;
+.menufoot li{
+	margin-right: 25px;
 }
-footer p{
-	color: #d7dee4;
-	text-align: right;
-	margin-left: 10px;
-	display: inline-block;
-}
+
 .social{
-	width:  140px;
-	margin-left: 5px;
+ float: right;	
+ display: inline-block;
+ margin: 19px 0;
+
 }
+.social li{
+	margin-left: 6px;
+}
+
 .social a{
-	display: inline-block;
-  width: 30px;
-  float: right;
+width: 40px;
+height: 40px;
+border: 1px solid white;	
+border-radius: 50%;
+display: inline-block;
+padding: 10px;	
+}
+.social svg{
+	width: 20px;
+	height: 20px;
 }
 
+.ptc{
+	font-size: 10px;
+	float: right;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
 
+.ptc li{
+	padding: 0 15px;
+	border-left: 2px solid #d7dee4
+}
 
+.ptc a{
+	font-size: 12px;
+}
+.ptc li:first-of-type {
+	border: none;
+}
 
+.ptc li:last-of-type {
+	padding-right: 0; 
+}
 
-
-
-
-
+iframe{
+	display: block;
+}
 
 
 
